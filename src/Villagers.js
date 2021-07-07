@@ -4,7 +4,7 @@ import Villager from "./Villager";
 const Villagers = ({ villagers }) => {
   return (
     <div className="container">
-      <h2>Villagers</h2>
+      <h1>Villagers</h1>
       <div className="allCards">
         {villagers.map((villager) => {
           return <Villager key={villager.id} {...villager} />;
